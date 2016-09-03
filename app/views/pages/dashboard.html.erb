@@ -4,11 +4,13 @@
 <div class="col-md-2 text-center">
 	<%= image_tag "cat.jpg", class: "logo" %>
 	<hr>
+	
 	<div class="timezone">
-		<p class="text-center"><b><%= Time.zone.name %> Timezone</b></p>
+		<p class="text-center"><b><%= Time.zone.name %> Timezone</b>
 		<%= link_to "change", edit_user_registration_path %>
+		</p>
 	</div>
-	<hr>
+	
 	<div class="social">
 	</div>
 </div> 
