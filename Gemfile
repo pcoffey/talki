@@ -74,3 +74,5 @@ gem 'koala'
 gem 'delayed_job_active_record'
 
 gem 'delayed-web', '~> 0.4.0'
+
+gem 'will_paginate'
